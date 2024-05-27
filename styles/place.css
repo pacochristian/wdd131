@@ -8,8 +8,11 @@
   font-style: normal;
 }
 
-header {
+body {
   background-color: #d21034;
+}
+header {
+  /* background-color: #d21034; */
   padding: 35px;
   color: #fff;
 }
@@ -29,6 +32,16 @@ img {
   width: 100%;
 }
 
+footer {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  /* background-color: #d21034; */
+}
+
+footer p {
+  font-size: 20px;
+}
 @media all and (max-width: 500px) {
   header h1 {
     font-style: italic;
