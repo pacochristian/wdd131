@@ -23,6 +23,21 @@ header {
 nav {
   display: flex;
 }
+/* ***** hamburger menu ***** */
+nav .openMenu{
+  font-size: 2rem;
+  margin: 20px; /* I will come back to it*/
+  display: none;
+  cursor: pointer;
+}
+
+nav .closeMenu , .icons i{
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+/* ***** hamburger menu ***** */
+
 ul {
   display: flex;
   font-size: 25px;
@@ -45,18 +60,18 @@ a:hover {
   color: #dccd33;
 }
 
-.hamburger {
+/* .hamburger {
   display: none;
   cursor: pointer;
-}
-
+} */
+/* 
 .bar {
   display: block;
   width: 25px;
   height: 3px;
   margin: 5px auto;
   background-color: #fff;
-}
+} */
 
 main {
   text-align: center;
@@ -93,14 +108,39 @@ footer p {
   font-size: 20px;
 }
 
-.jfdjfkjdnfkjndf {
-  color: blue;
-}
+
 
 @media screen and (max-width: 950px) {
   main div {
     display: grid;
     grid-template-columns: 1fr;
   }
-  
+  /* responsive hamberger menu */
+  nav ul{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  nav ul .closeMenu{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  nav .openMenu{
+    display: block;
+  }
+
+  nav ul li a{
+    font-size: 1.6rem;
+  }
 }
