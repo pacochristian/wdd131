@@ -9,10 +9,10 @@
 }
 
 body {
-  background-color: #d21034;
+  /* background-color: #d21034; */
 }
 header {
-  /* background-color: #d21034; */
+  background-color: #d21034;
   padding: 35px;
   color: #fff;
 }
@@ -23,28 +23,96 @@ header h1 {
   text-align: center;
 }
 
-div {
+.color {
   background-color: #227a4c;
-  padding: 9px;
+  padding: 8px;
 }
 
+.weather {
+  position: relative;
+  bottom: 1520px;
+  width: 200px;
+  left: 992px;
+  padding: 10px;
+  background-color: #227a4c;
+  opacity: 0.9;
+}
+
+.weather h1 {
+}
 img {
   width: 100%;
 }
+.glob .data h1 {
+  color: #000;
+}
 
+.data {
+  background-color: #227a4c;
+  width: 300px;
+  position: relative;
+  bottom: 1700px;
+  margin-left: 25px;
+  padding: 10px;
+}
+
+.data h1 {
+  color: #fff;
+}
+
+.elfsight-app-a4e706c2-0110-45cc-ac9d-50fb6ecb7e3b {
+  position: relative;
+  left: 1000px;
+  bottom: 500px;
+  opacity: 0.9;
+}
+.back {
+  width: 400px;
+  height: 500px;
+  position: relative;
+  background-color: #fff;
+  opacity: 0.9;
+  left: 20px;
+  border: 1px solid #fff;
+  position: relative;
+  bottom: 1200px;
+  margin: 12px;
+}
+/* 
+.back{
+    border: 1px solid #fff;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    bottom: 850px;. */
+/* bottom: 1000px; */
+/* margin-left: 58px; */
+/* z-index: 1; */
+/* background-color: #fff; */
+/* } */
 footer {
   text-align: center;
   color: #fff;
   padding: 20px;
-  /* background-color: #d21034; */
+  background-color: #d21034;
+}
+
+footer i {
+  color: #227a4c;
 }
 
 footer p {
   font-size: 20px;
 }
-@media all and (max-width: 500px) {
+
+@media all and (max-width: 700px) {
   header h1 {
     font-style: italic;
     color: #000;
+  }
+
+  .weather .elfsight-app-a4e706c2-0110-45cc-ac9d-50fb6ecb7e3b {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
