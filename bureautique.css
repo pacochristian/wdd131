@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0 9px;
+    /* margin: 0; */
+    background-color: beige;
+    font-family: "Caladea", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Windows img{
+    width: 300px;
+    border-radius: 35px;
+}
+
+.Windows .clic{
+    width: 800px;
+}

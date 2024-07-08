@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* code for the header */
+h1, p{
+    position: relative;
+    top: 45px;
+    text-align: center;
+}
+
+.search{
+    margin: 20px;
+}
+header{
+    display: flex;
+    padding: 8px;
+    background-color: #B39176;
+    /* width: 100%; */
+}
+/* 
+header div, nav{
+    position: sticky;
+    top: 0;
+} */
+nav{
+    display: flex;
+    margin-left: 10px;
+}
+
+nav ul{
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+header a:hover{
+    border-bottom: 2px solid #000;
+}
+/* End code for the header */
+
+/* code for the image banner */
+
+img{
+    width: 100%;
+    filter: brightness(0.7);
+}
+
+/* End code for the image banner */
+
+/* code for the text on the image */
+
+.para{
+    position: absolute;
+    width: 100%;
+    /* bottom: 150px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: larger;
+    color: #fff;
+    /* height: 40px; */
+}
+
+.para h2{
+    font-size: 100px;
+}
+/* code for the text on the image */
+
+/* code for the section under the image */
+section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* place-items: center; */
+    
+}
+
+/* End code for the section under the image */
