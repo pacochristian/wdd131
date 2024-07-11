@@ -17,3 +17,19 @@
 .Windows .clic{
     width: 800px;
 }
+
+
+/* Le responsive */
+
+@media screen and (min-width: 364px) {
+    .Windows .clic{
+        width: 300px;
+    }
+
+    .Windows img{
+        width: 200px;
+    }
+    
+    body{
+        font-size: 17px;
+    }
